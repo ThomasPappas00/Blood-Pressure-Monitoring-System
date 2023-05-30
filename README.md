@@ -5,7 +5,7 @@ The Blood-Pressure-Monitoring-System (BPMS) is a simulated IoT environment for m
 
 ## Description
 
-The system consists of three separate modules, namely the Simulator, the Server and the User-App. The Simulator generates the measurements, through random generators and acts as a blood pressure sensor. The Server handles the incoming requests from the Simulator and the User-App and saves the data in persistance storage (Microsoft SQL Server).
+The system consists of three separate modules, namely the Simulator, the Server and the User-App. The Simulator generates the measurements, through random generators and acts as a blood pressure sensor. The Server handles the incoming requests from the Simulator and the User-App and saves the data in persistence storage (Microsoft SQL Server).
 The Health monitoring application (GUI) allows the user a) to see on the screen of the PC the measurements that have been registered, b) to print them, c) to sort them, d) to search for a specific record.
 
 The first stage of the system was implemented with the Java API for WebSocket and the second stage implements a client/server architecture with HTTP. 
